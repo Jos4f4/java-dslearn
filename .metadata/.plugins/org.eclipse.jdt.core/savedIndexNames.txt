@@ -1,0 +1,21 @@
+INDEX VERSION 1.134+J:\Projetos\java-dslearn\.metadata\.plugins\org.eclipse.jdt.core
+3567030247.index
+2085954696.index
+138628605.index
+1811499069.index
+695557058.index
+15642446.index
+3710399333.index
+3473635471.index
+1865797976.index
+1999645968.index
+105116160.index
+2487961979.index
+75847405.index
+1232076682.index
+3874603543.index
+3269232577.index
+1002980664.index
+2167084730.index
+78412716.index
+2544508462.index
