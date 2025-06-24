@@ -1,0 +1,5 @@
+package com.devsuperior.dslearn.entities.pk;
+
+class EnrollmentPK {
+
+}

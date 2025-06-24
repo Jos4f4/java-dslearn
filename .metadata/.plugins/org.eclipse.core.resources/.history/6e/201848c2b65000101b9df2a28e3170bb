@@ -1,0 +1,13 @@
+package com.devsuperior.dslearn.entities;
+
+import java.time.Instant;
+import com.devsuperior.dslearn.entities.pk.EnrollmentPK;
+
+public class Enrollment {
+	
+	private EnrollmentPK id;
+	private Instant enrollMoment;
+	private Instant refundMoment;
+	private boolean available;
+	private boolean onlyUpdate;
+}

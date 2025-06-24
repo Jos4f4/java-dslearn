@@ -1,0 +1,15 @@
+package com.devsuperior.dslearn.entities.pk;
+
+import com.devsuperior.dslearn.entities.Offer;
+import com.devsuperior.dslearn.entities.User;
+
+class EnrollmentPK {
+	
+	private User user;
+	private Offer offer;
+	
+	public EnrollmentPK() {
+		
+	}
+	
+}
