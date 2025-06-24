@@ -1,6 +1,8 @@
 package com.devsuperior.dslearn.entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.devsuperior.dslearn.entities.enums.ResourceType;
 
@@ -10,6 +12,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -31,6 +34,9 @@ public class Resource implements Serializable {
 	@ManyToOne
 	@JoinColumn(name = "offer_id")
 	private Offer offer;
+	
+	@OneToMany(mappedBy = "resource")
+	private List<Section> sections = new ArrayList<>();
 	
 	public Resource() {
 		
