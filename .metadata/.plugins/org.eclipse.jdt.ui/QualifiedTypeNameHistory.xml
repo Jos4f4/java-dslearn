@@ -2,6 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.devsuperior.dslearn.entities.User"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
 </qualifiedTypeNameHistroy>
